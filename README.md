@@ -6,29 +6,7 @@ A terminal chat client for the [xAI Grok API](https://docs.x.ai/). Keeps full co
 
 ## Preview
 
-```
-Clayrok — type 'exit' or Ctrl+C to quit.
-Tip: type / to browse commands.
-
-────────────────────────────────────────────────
-model: grok-4.7  ·  credits: R169.59 (100%)
-│ You
-> tell me about Go
-
-You
-│ tell me about Go
-
-Clayrok
-│ Go (also called Golang) is an open-source, statically typed, compiled
-│ language designed at Google. It emphasises simplicity, fast compilation,
-│ and built-in concurrency via goroutines and channels.
-│ ...
-
-────────────────────────────────────────────────
-model: grok-4.7  ·  credits: R169.59 (100%)
-│ You
->
-```
+![Clayrok demo](assets/clayrok.gif)
 
 ---
 
@@ -59,6 +37,7 @@ Muted body text uses `#a07890` and response content uses `#f5e6f0`.
 ---
 
 ## Setup
+Explain SEO using a simple analogy.
 
 ### 1. Inference API key (required)
 
